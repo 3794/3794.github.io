@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<body>
+<style>
+#tileSheet {
+  width: 512px;
+  height: 48px;
+}
+#singleTileCanvas {
+   width:      156px;
+   height:      156px;
+   border:    none;
+}
+#singleText {
+   text-align:   center;
+}
+#fullDemoCanvas {
+  width: 512px;
+  height: 512px;
+  background: #bbc5cf;
+}
+</style>
+<img src="numberedStone.png" id="tileSheet" class="pixel" width="256px" height="24px">
+<div id="singleTileDiv">
+  <canvas class="pixel" id="singleTileCanvas" width="52" height="52"></canvas>
+  <p id="singleText"></p>
+</div>
+<div id="fullDemoDiv">
+  <canvas class="pixel" id="fullDemoCanvas" width="256" height="256"></canvas>
+</div>
+<script defer="true" src="app.js"></script>
+</body>
+</html>
