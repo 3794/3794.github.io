@@ -1,0 +1,1 @@
+{"version":3,"sources":["containers/App.css"],"names":[],"mappings":"AAAA,KACE,WAAa,CAGf,YACI,qBAAuB","file":"static/css/main.c60dfd97.css","sourcesContent":["body {\n  margin: 10px;\n}\n\n.menu:hover{\n    background-color: aqua;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/containers/App.css"],"sourceRoot":""}
