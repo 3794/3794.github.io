@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-// ?fdt=.abc,background-color,red&fdt=.def,width,100,px
+// ?fdt=.abc|background-color|red&fdt=.def|width|100,px
 
 var elContainer = document.createElement('DIV')
 var elTable = document.createElement('TABLE')
@@ -8,7 +8,7 @@ location.search.substr(1).split('&')
 .map(query => query.split('='))
 .filter(query => query[0] === 'fdt')
 .map(query => {
-  var values = query[1].split(',')
+  var values = query[1].split('|')
   return {
     selector: values[0], 
     prop: values[1], 
