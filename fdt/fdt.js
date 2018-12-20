@@ -1,4 +1,4 @@
-(function() {
+document.addEventListener("DOMContentLoaded", function() {
 // ?fdt=.abc,background-color,red&fdt=.def,width,100,px
 
 var elContainer = document.createElement('DIV')
@@ -75,4 +75,8 @@ document.addEventListener('keydown', function(event) {
     }
   }
 })
-})()
+  
+  
+}
+
+
